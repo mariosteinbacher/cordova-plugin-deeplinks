@@ -1,5 +1,8 @@
 # Cordova Deeplinks Plugin
 
+**NOTE:** This is a fork of "e-imaxina/cordova-plugin-deeplinks" and got an update for the security breach of a dependency from "xml2js (0.4.23)"
+
+
 **NOTE:** This is a fork from the original cordova plugin "cordova-deeplinks" that in turn is a fork from "cordova-universal-links-plugin"
 
 This Cordova plugin adds support for opening an application from the browser when user clicks on the link. Better known as:
