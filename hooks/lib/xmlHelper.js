@@ -28,8 +28,13 @@ function readXmlAsJson(filePath) {
       if (data) {
         parsedData = data;
       }
+      if(err){
+          console.log('Plugin Deeplinks parsing error: '+JSON.stringify(err));
+      }
     });
-  } catch (err) {}
+  } catch (err) {
+      console.log('Plugin Deeplinks error: '+ JSON.stringify(err));
+  }
 
   return parsedData;
 }
